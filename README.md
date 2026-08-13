@@ -21,3 +21,11 @@ A close button (×) or the Esc key to close the notebook. Any interface action (
 `client.lua` forwards the request to `server.lua` using a QBCore callback (`QBCore.Functions.CreateCallback`).
 `server.lua` verifies the player's identity, sanitizes and trims the input (title/content)—regardless of what the client sent—executes the MySQL query (via `oxmysql`), and returns a result (`{success, message, id}`) to the interface, allowing it to update immediately without reloading the entire list.
 Upon closing, the prop is removed and the animation stops.
+
+<img width="811" height="469" alt="image" src="https://github.com/user-attachments/assets/ec948acd-1de7-4648-a98c-1dca59fa238a" />
+
+<img width="1019" height="648" alt="image" src="https://github.com/user-attachments/assets/013db775-7730-484d-a271-b86df8fc45f8" />
+
+
+
+#ab_dev
