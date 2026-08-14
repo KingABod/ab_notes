@@ -22,4 +22,6 @@ A close button (×) or the Esc key to close the notebook. Any interface action (
 `server.lua` verifies the player's identity, sanitizes and trims the input (title/content)—regardless of what the client sent—executes the MySQL query (via `oxmysql`), and returns a result (`{success, message, id}`) to the interface, allowing it to update immediately without reloading the entire list.
 Upon closing, the prop is removed and the animation stops.
 
+<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/46a68552-2b2e-40b8-96fd-862b53c6f41c" />
+
 #ab_dev
